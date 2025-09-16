@@ -1,0 +1,34 @@
+{
+  "name": "schuum-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "lint-no-fix": "eslint --ext .js,.vue src/"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.11.3",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/interaction": "^5.11.3",
+    "@fullcalendar/vue3": "^5.11.3",
+    "@mdi/font": "7.0.96",
+    "axios": "^1.2.1",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.27",
+    "roboto-fontface": "*",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.0.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "eslint": "^8.30.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+  }
+}

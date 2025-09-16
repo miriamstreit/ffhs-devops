@@ -1,0 +1,37 @@
+services:
+  database:
+    image: "postgres:15"
+    container_name: database
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=schuumadmin
+      - POSTGRES_PASSWORD=i<3Beer
+      - POSTGRES_DB=schuum
+    ports:
+      - "6543:5432"
+
+  backend:
+    build:
+      context: ../../backend
+    container_name: backend
+    restart: unless-stopped
+    depends_on:
+      - database
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/schuum
+      - SPRING_DATASOURCE_USERNAME=schuumadmin
+      - SPRING_DATASOURCE_PASSWORD=i<3Beer
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+    ports:
+      - "5001:8080"
+
+  frontend:
+    build:
+      context: ../../frontend
+    container_name: frontend
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=https://schuumapp-develop.sw3.ch/api
+    ports:
+      - "4001:80"

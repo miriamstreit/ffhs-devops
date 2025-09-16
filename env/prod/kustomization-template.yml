@@ -1,0 +1,43 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../k8s-deploy
+
+namespace: ${BRANCH_NAME}
+
+images:
+  - name: BACKEND_IMAGE
+    newName: sebastianschuum/schuum-backend
+    newTag: "${BUILD_ID}"
+  - name: FRONTEND_IMAGE
+    newName: sebastianschuum/schuum-frontend
+    newTag: "${BUILD_ID}"
+
+patches:
+  - target:
+      kind: Ingress
+    path: ingress-set-hostname.yml
+
+configMapGenerator:
+  - name: backend-config
+    literals:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db-service:5432/schuum
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+  - name: frontend-config
+    literals:
+      - VITE_API_URL="https://schuumapp-prod.sw3.ch/api"
+  - name: postgres-config
+    literals:
+      - POSTGRES_DB=schuum
+
+secretGenerator:
+  - name: backend-secret
+    literals:
+      - SPRING_DATASOURCE_USERNAME=schuumadmin
+      - SPRING_DATASOURCE_PASSWORD=i<3Beer
+  - name: postgres-secret
+    literals:
+      - POSTGRES_USER=schuumadmin
+      - POSTGRES_PASSWORD=i<3Beer

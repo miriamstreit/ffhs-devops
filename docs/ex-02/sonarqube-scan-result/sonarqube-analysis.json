@@ -1,0 +1,1224 @@
+{
+  "total": 27,
+  "p": 1,
+  "ps": 100,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 100,
+    "total": 27
+  },
+  "effortTotal": 113,
+  "issues": [
+    {
+      "key": "baad7328-0a10-4381-b7a5-00ad888ee21f",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/BeerTypeTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 13,
+      "hash": "0c94ce37ec05862eba11a0c414dda018",
+      "textRange": {
+        "startLine": 13,
+        "endLine": 13,
+        "startOffset": 12,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "96f8d4e0-b63a-4440-b493-4369e3402542",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/BeerTypeTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 16,
+      "hash": "bdd4928a2cc0d26e6755fc6732ccd973",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 12,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "7aa144a6-966c-4064-a92b-e5341c05eecc",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/BeerTypeTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 17,
+      "hash": "bdd4928a2cc0d26e6755fc6732ccd973",
+      "textRange": {
+        "startLine": 17,
+        "endLine": 17,
+        "startOffset": 12,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "8592e1a0-bffa-400b-9eb1-c2fef5e40368",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/IngredientTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 13,
+      "hash": "0c94ce37ec05862eba11a0c414dda018",
+      "textRange": {
+        "startLine": 13,
+        "endLine": 13,
+        "startOffset": 12,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "a91186c1-fabb-43bf-b9c7-1ef0ba5fe349",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/IngredientTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 16,
+      "hash": "0c94ce37ec05862eba11a0c414dda018",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 12,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "644e01b0-68f0-48c1-9000-d8aed92c77b9",
+      "rule": "Web:TableHeaderHasIdOrScopeCheck",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/IngredientTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 19,
+      "hash": "bdd4928a2cc0d26e6755fc6732ccd973",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 12,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add either an 'id' or a 'scope' attribute to this \u003Cth\u003E tag.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2022-12-22T16:54:53+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "7bdb6484-f14f-4900-9934-2ca30ef08fd6",
+      "rule": "javascript:S3504",
+      "severity": "CRITICAL",
+      "component": "schuumapp-frontend:src/helpers/jwtHelper.js",
+      "project": "schuumapp-frontend",
+      "line": 7,
+      "hash": "dc7bb488f211cf018e8835842e5ac4fe",
+      "textRange": {
+        "startLine": 7,
+        "endLine": 7,
+        "startOffset": 2,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected var, use let or const instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "es2015",
+        "bad-practice"
+      ],
+      "creationDate": "2022-12-18T11:53:27+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "6b1f2c8b-2177-4dcf-a82c-eec992fa4fcb",
+      "rule": "javascript:S3504",
+      "severity": "CRITICAL",
+      "component": "schuumapp-frontend:src/helpers/jwtHelper.js",
+      "project": "schuumapp-frontend",
+      "line": 8,
+      "hash": "40ccc4ee960cea22327df21bc3c1b384",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 2,
+        "endOffset": 12
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected var, use let or const instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "es2015",
+        "bad-practice"
+      ],
+      "creationDate": "2022-12-18T11:53:27+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "2b308fc3-2026-416a-8d97-d280fb9a785d",
+      "rule": "javascript:S3504",
+      "severity": "CRITICAL",
+      "component": "schuumapp-frontend:src/helpers/jwtHelper.js",
+      "project": "schuumapp-frontend",
+      "line": 9,
+      "hash": "f117c8671bf9f2fd08727117251abbf5",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 2,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected var, use let or const instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [
+        "es2015",
+        "bad-practice"
+      ],
+      "creationDate": "2022-12-18T11:53:27+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "7b4583ef-ff9f-49d0-b159-ab92ade84254",
+      "rule": "css:S4667",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/pages/CanBrew.vue",
+      "project": "schuumapp-frontend",
+      "line": 120,
+      "hash": "775eb6185ea4b75bb77b29c265ddeccf",
+      "textRange": {
+        "startLine": 120,
+        "endLine": 120,
+        "startOffset": 0,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected empty source",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "33714764+ntold@users.noreply.github.com",
+      "tags": [],
+      "creationDate": "2022-12-17T21:16:22+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "380759f0-0e2f-42cf-9dea-7a8e5318f8bb",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/mapping/BeerTypeMapperTest.java",
+      "project": "schuumapp-backend",
+      "line": 6,
+      "hash": "be5bb75f7304251f8ba22d9144cb40ec",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 7,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.dto.TankDto'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T15:43:55+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "3cb28229-aec0-4176-87a9-b09a8ddf917f",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/mapping/BeerTypeMapperTest.java",
+      "project": "schuumapp-backend",
+      "line": 10,
+      "hash": "640c8fcf39b5da52dcd057ed9169e93b",
+      "textRange": {
+        "startLine": 10,
+        "endLine": 10,
+        "startOffset": 7,
+        "endOffset": 35
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.model.Tank'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T15:43:55+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "40791bf1-8cf7-466d-a015-48f45329a5d4",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "project": "schuumapp-backend",
+      "line": 6,
+      "hash": "be5bb75f7304251f8ba22d9144cb40ec",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 7,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.dto.TankDto'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T15:43:55+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "25d49ac0-d2fe-41fe-b0c7-076cc6560d78",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "project": "schuumapp-backend",
+      "line": 8,
+      "hash": "07eed9e19cec07240f98defde152d56d",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 7,
+        "endOffset": 45
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.model.BrewingProcess'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T15:43:55+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "ecf71e05-e383-48ff-999e-7443a1578f38",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "project": "schuumapp-backend",
+      "line": 27,
+      "hash": "2ab8bd1ff6603ca3d166f3a134da7756",
+      "textRange": {
+        "startLine": 27,
+        "endLine": 27,
+        "startOffset": 14,
+        "endOffset": 53
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'org.mockito.ArgumentMatchers.anyBoolean'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T15:43:55+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "2d209c35-3bd2-474b-ac14-143ca3a29b8a",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/CanBrewControllerTest.java",
+      "project": "schuumapp-backend",
+      "line": 7,
+      "hash": "6463eac3f4a93b77aa85d6472a759669",
+      "textRange": {
+        "startLine": 7,
+        "endLine": 7,
+        "startOffset": 7,
+        "endOffset": 44
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.service.TankService'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T14:18:23+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "f697cc4d-3523-4df4-ac08-d95f818edf67",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/CanBrewControllerTest.java",
+      "project": "schuumapp-backend",
+      "line": 26,
+      "hash": "25a4345c28db7c2000394f6baf94a60f",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 14,
+        "endOffset": 48
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'org.junit.jupiter.api.Assertions'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T14:18:23+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "5e60f051-a17a-4af2-b0f1-4d6abb9c8f2c",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java",
+      "project": "schuumapp-backend",
+      "line": 5,
+      "hash": "6463eac3f4a93b77aa85d6472a759669",
+      "textRange": {
+        "startLine": 5,
+        "endLine": 5,
+        "startOffset": 7,
+        "endOffset": 44
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.service.TankService'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T14:18:23+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "c5603011-89c5-4c46-afc7-73b14d13394b",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java",
+      "project": "schuumapp-backend",
+      "line": 6,
+      "hash": "705391a833d0586a332b605f5ce99539",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 7,
+        "endOffset": 57
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T14:18:23+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "df9f7a48-a26d-448b-bdb5-b47cacb3ecba",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java",
+      "project": "schuumapp-backend",
+      "line": 29,
+      "hash": "25a4345c28db7c2000394f6baf94a60f",
+      "textRange": {
+        "startLine": 29,
+        "endLine": 29,
+        "startOffset": 14,
+        "endOffset": 48
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'org.junit.jupiter.api.Assertions'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-17T14:18:23+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "5dad3562-a601-4315-8780-e386f1becc26",
+      "rule": "java:S1128",
+      "severity": "MINOR",
+      "component": "schuumapp-backend:src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "project": "schuumapp-backend",
+      "line": 12,
+      "hash": "028d85fd97c1eeb792a4d1a7dac3e8aa",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 7,
+        "endOffset": 60
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this unused import 'ch.schuum.backend.repository.BrewingProcessRepository'.",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "miriamffhs@bgsws108.home",
+      "tags": [
+        "unused"
+      ],
+      "creationDate": "2022-12-15T21:12:43+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "TEST",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "607fcf31-144e-488b-9f8b-6e5d93dfb8f9",
+      "rule": "docker:S6476",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:Dockerfile",
+      "project": "schuumapp-frontend",
+      "line": 1,
+      "hash": "d88df0228a046da8dd4bb9bae7427eaa",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 13,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Replace `as` with upper case format `AS`.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "miriamffhs@bgsws108.local",
+      "tags": [
+        "convention"
+      ],
+      "creationDate": "2022-12-08T15:17:57+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "FORMATTED",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "8923b40b-1209-4213-adf3-c26a92895b8b",
+      "rule": "docker:S6476",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:Dockerfile",
+      "project": "schuumapp-frontend",
+      "line": 8,
+      "hash": "a7afcef40c636930e006e7a6a1e0b45a",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 11,
+        "endOffset": 13
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Replace `as` with upper case format `AS`.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "miriamffhs@bgsws108.local",
+      "tags": [
+        "convention"
+      ],
+      "creationDate": "2022-12-08T15:17:57+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "FORMATTED",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "d68adec1-843b-42c3-9bb8-822bbdcdcfcc",
+      "rule": "docker:S6596",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:Dockerfile",
+      "project": "schuumapp-frontend",
+      "line": 8,
+      "hash": "a7afcef40c636930e006e7a6a1e0b45a",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 5,
+        "endOffset": 10
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Use a specific version tag for the image.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "miriamffhs@bgsws108.local",
+      "tags": [],
+      "creationDate": "2022-12-08T15:17:57+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "e4274161-1273-4397-85b6-a89aec1daa05",
+      "rule": "java:S6813",
+      "severity": "MAJOR",
+      "component": "schuumapp-backend:src/main/java/ch/schuum/backend/auth/AuthTokenFilter.java",
+      "project": "schuumapp-backend",
+      "line": 28,
+      "hash": "0132ec8cee01c5dd244e1a60fe6448a1",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 4,
+        "endOffset": 14
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this field injection and use constructor injection instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "miriamffhs@bgsws108.local",
+      "tags": [],
+      "creationDate": "2022-12-08T15:17:57+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "31987796-48da-4b2f-8240-d193966f6190",
+      "rule": "java:S6813",
+      "severity": "MAJOR",
+      "component": "schuumapp-backend:src/main/java/ch/schuum/backend/auth/AuthTokenFilter.java",
+      "project": "schuumapp-backend",
+      "line": 31,
+      "hash": "0132ec8cee01c5dd244e1a60fe6448a1",
+      "textRange": {
+        "startLine": 31,
+        "endLine": 31,
+        "startOffset": 4,
+        "endOffset": 14
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this field injection and use constructor injection instead.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "miriamffhs@bgsws108.local",
+      "tags": [],
+      "creationDate": "2022-12-08T15:17:57+0000",
+      "updateDate": "2024-10-14T18:31:07+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    },
+    {
+      "key": "99c3b9ab-7bbe-49e4-a7fd-637322a35ca8",
+      "rule": "css:S4667",
+      "severity": "MAJOR",
+      "component": "schuumapp-frontend:src/components/IngredientTable.vue",
+      "project": "schuumapp-frontend",
+      "line": 209,
+      "hash": "775eb6185ea4b75bb77b29c265ddeccf",
+      "textRange": {
+        "startLine": 209,
+        "endLine": 209,
+        "startOffset": 0,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected empty source",
+      "effort": "1min",
+      "debt": "1min",
+      "author": "nico.berchtold@me.com",
+      "tags": [],
+      "creationDate": "2022-12-05T14:24:38+0000",
+      "updateDate": "2024-10-14T19:32:21+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false
+    }
+  ],
+  "components": [
+    {
+      "key": "schuumapp-frontend:src/components/BeerTypeTable.vue",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "BeerTypeTable.vue",
+      "longName": "src/components/BeerTypeTable.vue",
+      "path": "src/components/BeerTypeTable.vue"
+    },
+    {
+      "key": "schuumapp-backend",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "schuumapp-backend",
+      "longName": "schuumapp-backend"
+    },
+    {
+      "key": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/CanBrewControllerTest.java",
+      "enabled": true,
+      "qualifier": "UTS",
+      "name": "CanBrewControllerTest.java",
+      "longName": "src/test/java/ch/schuum/backend/controller/CanBrewControllerTest.java",
+      "path": "src/test/java/ch/schuum/backend/controller/CanBrewControllerTest.java"
+    },
+    {
+      "key": "schuumapp-frontend:src/helpers/jwtHelper.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "jwtHelper.js",
+      "longName": "src/helpers/jwtHelper.js",
+      "path": "src/helpers/jwtHelper.js"
+    },
+    {
+      "key": "schuumapp-frontend:Dockerfile",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "Dockerfile",
+      "longName": "Dockerfile",
+      "path": "Dockerfile"
+    },
+    {
+      "key": "schuumapp-frontend",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "schuumapp-frontend",
+      "longName": "schuumapp-frontend"
+    },
+    {
+      "key": "schuumapp-backend:src/main/java/ch/schuum/backend/auth/AuthTokenFilter.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "AuthTokenFilter.java",
+      "longName": "src/main/java/ch/schuum/backend/auth/AuthTokenFilter.java",
+      "path": "src/main/java/ch/schuum/backend/auth/AuthTokenFilter.java"
+    },
+    {
+      "key": "schuumapp-backend:src/test/java/ch/schuum/backend/mapping/BeerTypeMapperTest.java",
+      "enabled": true,
+      "qualifier": "UTS",
+      "name": "BeerTypeMapperTest.java",
+      "longName": "src/test/java/ch/schuum/backend/mapping/BeerTypeMapperTest.java",
+      "path": "src/test/java/ch/schuum/backend/mapping/BeerTypeMapperTest.java"
+    },
+    {
+      "key": "schuumapp-frontend:src/pages/CanBrew.vue",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CanBrew.vue",
+      "longName": "src/pages/CanBrew.vue",
+      "path": "src/pages/CanBrew.vue"
+    },
+    {
+      "key": "schuumapp-backend:src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java",
+      "enabled": true,
+      "qualifier": "UTS",
+      "name": "IngredientControllerTest.java",
+      "longName": "src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java",
+      "path": "src/test/java/ch/schuum/backend/controller/IngredientControllerTest.java"
+    },
+    {
+      "key": "schuumapp-backend:src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "enabled": true,
+      "qualifier": "UTS",
+      "name": "BeerTypeServiceTest.java",
+      "longName": "src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java",
+      "path": "src/test/java/ch/schuum/backend/service/BeerTypeServiceTest.java"
+    },
+    {
+      "key": "schuumapp-frontend:src/components/IngredientTable.vue",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "IngredientTable.vue",
+      "longName": "src/components/IngredientTable.vue",
+      "path": "src/components/IngredientTable.vue"
+    }
+  ],
+  "facets": []
+}

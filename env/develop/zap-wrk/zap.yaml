@@ -1,0 +1,38 @@
+env:
+  contexts:
+    - name: "develop"
+      urls:
+      - "https://schuumapp-develop.sw3.ch/"
+      includePaths:
+      - "https://schuumapp-develop.sw3.ch/.*"
+  parameters:
+    failOnError: true
+    failOnWarning: false
+    continueOnFailure: false
+    progressToStdout: true
+jobs:
+  - type: "activeScan"
+    name: "develop-active-scan"
+    parameters:
+      context: "develop"
+    policyDefinition:
+      rules: []
+  - type: "spiderAjax"
+    name: "develop-spider"
+    parameters:
+      context: "develop"
+    tests:
+      - name: "At least 50 URLs found"
+        type: "stats"
+        statistic: "spiderAjax.urls.added"
+        operator: ">="
+        value: 50
+        onFail: "info"
+  - type: "report"
+    name: "develop-report"
+    parameters:
+      template: "traditional-html"
+      reportDir: "/zap/wrk/reports"
+      reportFile: "zap-report.html"
+      reportTitle: "ZAP Report"
+      displayReport: false

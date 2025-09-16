@@ -1,0 +1,41 @@
+@startuml
+class ch.schuum.backend.model.IngredientAmount {
+- Ingredient ingredient
+- float amount
+}
+class ch.schuum.backend.model.BeerType {
+- int beerTypeId
+- String name
+- int duration
+- List<IngredientAmount> ingredients
+- boolean deleted
+}
+class ch.schuum.backend.model.BrewingProcess {
+- int brewingId
+- BeerType beerType
+- Tank tank
+- LocalDate startDate
+- LocalDate endDate
+- String sudNumber
+- String comment
+- String color
+- boolean deleted
+}
+class ch.schuum.backend.model.Ingredient {
+- int ingredientId
+- String name
+- float stock
+- float threshold
+- boolean deleted
+}
+class ch.schuum.backend.model.Tank {
+- int tankId
+- int volume
+}
+class ch.schuum.backend.model.User {
+- int userId
+- String email
+- String password
+- String token
+}
+@enduml
